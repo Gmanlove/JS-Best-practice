@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hwb(240 9% 91%);
+  background-image: -webkit-linear-gradient(65deg, #3bd6c9 40%, #46dd39 60%);
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  text-align: center;
+  width: 50%;
+  margin: 30px 25%;
+  padding: 20px 0;
+  color: rgb(16, 15, 15);
+  background-color: rgb(245, 245, 245);
+  background-image: -webkit-linear-gradient(65deg, #e0e8e7 40%, #ece918 60%);
+}
+
+.first {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  font-size: x-small;
+}
+
+.first h1 {
+  color: #38036a;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.first span {
+  font-size: medium;
+  background-color: #c1c3e9;
+}
+
+button {
+  background: #c1c3e9;
+  border: none;
+}
+
+.remove {
+  width: 100%;
+  text-align: center;
+  margin: 1rem;
+}
+
+.remove a {
+  color: hwb(0 5% 16%);
+  text-decoration: none;
+  font-size: large;
+}
+
+.todo {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.add-todo {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+#todo {
+  width: 90%;
+  padding: 0.7rem;
+  font-size: large;
+  font-style: italic;
+}
+
+.del:hover {
+  cursor: pointer;
+  color: #e21422;
+}
+
+.text {
+  width: 85%;
+  padding: 0.3rem;
+  font-size: large;
+}
+
+.checkbox {
+  margin-right: 1rem;
+}
+
+.thicked {
+  text-decoration: line-through double;
+  color: #e21422;
+}
